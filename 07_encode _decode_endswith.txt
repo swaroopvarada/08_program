@@ -1,0 +1,17 @@
+#encode
+
+a='india'
+print(a.encode())
+
+a='india is the best country'
+m=a.encode()
+print(m)
+print(m.decode())
+
+#endswith
+
+a='india is the best country and it is number one country'
+print(a.endswith('is'))
+
+a='You can use two or more specially designated characters within a string to format a 		string or perform a command. These characters are called escape sequences'
+print(a.endswith('sequences'))
